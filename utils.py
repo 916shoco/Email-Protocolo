@@ -6,8 +6,8 @@ from email.message import EmailMessage
 def enviar_email(destinatario, mensagem):
     smtp_server = "smtp.gmail.com"
     port = 587
-    sender_email = "yurimbrico@gmail.com"
-    password = "qasmukwrhcephsae"
+    sender_email = "."
+    password = "."
     
     #Aqui e o conteudo da mensagem (no meu caso recuperaçao de senha)
     msg = EmailMessage()
